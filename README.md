@@ -1,20 +1,20 @@
-# 🌐 Web-based Interactive Algorithm Visualizer
+# Web-based Interactive Algorithm Visualizer
 
 A visual and interactive tool for understanding how the **A\*** Pathfinding Algorithm works — built with HTML, CSS, and JavaScript. This application lets users customize the grid, place weighted nodes and obstacles, adjust visualization speed, and more.
 
 ---
 
-## 🧠 Part 1: How A\* Pathfinding Algorithm Works
+## Part 1: How A\* Pathfinding Algorithm Works
 
 Imagine A\* as a smart robot trying to reach its goal. It avoids walls and always chooses the most promising path.
 
-### 🧩 Key Concepts
+### Key Concepts
 
 - `g`: Cost from the **start** to the current node.
 - `h`: Estimated cost from the current node to the **end**.
 - `f = g + h`: Total estimated cost of the path through this node — **lower is better**.
 
-### 🔄 How It Works (Step-by-Step)
+### How It Works (Step-by-Step)
 
 1. Begin at the **start node**.
 2. Explore its **up, down, left, right** neighbors (no diagonals).
@@ -29,9 +29,9 @@ Imagine A\* as a smart robot trying to reach its goal. It avoids walls and alway
 
 ---
 
-## 🕹️ Part 2: How to Use the Visualizer
+## 🕹Part 2: How to Use the Visualizer
 
-### 📌 Step-by-Step Instructions
+### Step-by-Step Instructions
 
 1. **Open the Web Page**  
    The app displays a grid (default: 10x10) of cells.
@@ -64,7 +64,7 @@ Imagine A\* as a smart robot trying to reach its goal. It avoids walls and alway
 
 ---
 
-## 🎨 Cell Color Legend
+## Cell Color Legend
 
 | Color        | Meaning                 |
 |--------------|--------------------------|
@@ -77,19 +77,19 @@ Imagine A\* as a smart robot trying to reach its goal. It avoids walls and alway
 
 ---
 
-## ⚙️ Features
+## Features
 
-- ✅ A\* pathfinding with Manhattan Distance
-- ✅ Adjustable grid size
-- ✅ Adjustable animation speed
-- ✅ Weighted nodes
-- ✅ Save/Load grid to/from browser
-- ✅ Responsive and interactive UI
-- ✅ Optimized for clarity and educational use
+- A\* pathfinding with Manhattan Distance
+- Adjustable grid size
+- Adjustable animation speed
+- Weighted nodes
+- Save/Load grid to/from browser
+- Responsive and interactive UI
+- Optimized for clarity and educational use
 
 ---
 
-## 💡 Tech Stack
+## Tech Stack
 
 - HTML
 - CSS (custom styles, grid layout, button effects)
