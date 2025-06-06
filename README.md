@@ -29,7 +29,7 @@ Imagine A\* as a smart robot trying to reach its goal. It avoids walls and alway
 
 ---
 
-## 🕹Part 2: How to Use the Visualizer
+## Part 2: How to Use the Visualizer
 
 ### Step-by-Step Instructions
 
